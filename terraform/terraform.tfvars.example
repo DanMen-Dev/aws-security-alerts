@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars only if you need to change a default. Never put secrets here.
+region      = "us-east-2"
+aws_profile = "aws-alertas"
+project     = "security-alerts"

@@ -1,0 +1,13 @@
+# Terraform: state can contain sensitive data and must never be committed
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform/build/
+*.tfvars
+!terraform.tfvars.example
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/

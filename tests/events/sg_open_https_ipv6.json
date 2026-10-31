@@ -1,0 +1,16 @@
+{
+  "detail-type": "AWS API Call via CloudTrail", "source": "aws.ec2", "region": "us-east-1",
+  "detail": {
+    "eventTime": "2026-10-31T13:07:00Z", "eventName": "AuthorizeSecurityGroupIngress",
+    "awsRegion": "us-east-1", "sourceIPAddress": "203.0.113.25",
+    "userIdentity": {"type": "IAMUser", "arn": "arn:aws:iam::123456789012:user/web-admin"},
+    "requestParameters": {
+      "groupId": "sg-0web",
+      "ipPermissions": {"items": [
+        {"ipProtocol": "tcp", "fromPort": 443, "toPort": 443, "ipRanges": {},
+         "ipv6Ranges": {"items": [{"cidrIpv6": "::/0"}]}}
+      ]}
+    },
+    "eventID": "33333333-2222-3333-4444-555555555555"
+  }
+}

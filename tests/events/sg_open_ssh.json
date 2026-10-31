@@ -1,0 +1,19 @@
+{
+  "version": "0", "id": "7bf73129-1428-4cd3-a780-95db273d1602",
+  "detail-type": "AWS API Call via CloudTrail", "source": "aws.ec2",
+  "account": "123456789012", "time": "2026-10-31T13:05:10Z", "region": "us-east-1",
+  "detail": {
+    "eventVersion": "1.09", "eventTime": "2026-10-31T13:05:10Z",
+    "eventSource": "ec2.amazonaws.com", "eventName": "AuthorizeSecurityGroupIngress",
+    "awsRegion": "us-east-1", "sourceIPAddress": "203.0.113.25",
+    "userIdentity": {"type": "IAMUser", "arn": "arn:aws:iam::123456789012:user/terraform-daniel", "userName": "terraform-daniel"},
+    "requestParameters": {
+      "groupId": "sg-0abc1234def567890",
+      "ipPermissions": {"items": [
+        {"ipProtocol": "tcp", "fromPort": 22, "toPort": 22, "groups": {},
+         "ipRanges": {"items": [{"cidrIp": "0.0.0.0/0"}]}, "ipv6Ranges": {}, "prefixListIds": {}}
+      ]}
+    },
+    "eventID": "11111111-2222-3333-4444-555555555555"
+  }
+}

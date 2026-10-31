@@ -1,0 +1,11 @@
+{
+  "detail-type": "AWS API Call via CloudTrail", "source": "aws.cloudtrail", "region": "us-east-1",
+  "detail": {
+    "eventTime": "2026-10-31T13:15:00Z", "eventSource": "cloudtrail.amazonaws.com", "eventName": "StopLogging",
+    "awsRegion": "us-east-1", "sourceIPAddress": "198.51.100.99",
+    "userIdentity": {"type": "IAMUser", "arn": "arn:aws:iam::123456789012:user/intern"},
+    "requestParameters": {"name": "security-alerts-trail"},
+    "errorCode": "AccessDenied",
+    "eventID": "66666666-2222-3333-4444-555555555555"
+  }
+}
