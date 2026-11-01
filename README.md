@@ -2,6 +2,8 @@
 
 Event-driven automation that detects risky security changes in an AWS account and sends a clear, enriched alert to Slack within minutes. Everything is deployed with Terraform, with least-privilege permissions and no secrets in code or state.
 
+![Alert delivered to Slack](docs/slack-alert.png)
+
 **Detects:**
 
 | Change | Severity |
